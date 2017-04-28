@@ -1,0 +1,10 @@
+.display-comments-component {
+  display: flex;
+  justify-content: center;
+  background-color: fuchsia;
+  border: solid 1px black;
+  width: 300px;
+  margin-left: 100px;
+  padding: 10px 10px 10px 10px;
+  border-radius: 10px;
+}

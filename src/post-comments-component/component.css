@@ -1,0 +1,9 @@
+.post-comments-component {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  border: solid 1px black;
+  width: 400px;
+  padding: 10px 10px 10px 10px;
+  border-radius: 10px;
+}

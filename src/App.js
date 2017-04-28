@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
-import FantasticComponent from './fantastic-component/component'
+//import FantasticComponent from './fantastic-component/component'
+import DisplayCommentComponent from './display-comments-component/component'
+import PostCommentsComponent from './post-comments-component/component'
 import logo from './logo.svg'
 import './App.css'
 
@@ -12,7 +14,8 @@ class App extends Component {
           <h2>Team A!</h2>
         </div>
         <div className='component-test'>
-          <FantasticComponent />
+          <PostCommentsComponent parent="postid" />
+          <DisplayCommentComponent name="test" time="28/04/2017" message="testmessage" /> 
         </div>
       </div>
     )

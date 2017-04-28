@@ -20,6 +20,8 @@
 
 .component-test {
   display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
   justify-content: center;
   padding-top: 50px;
 }
