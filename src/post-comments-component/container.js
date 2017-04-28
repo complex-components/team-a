@@ -1,11 +1,14 @@
 import {connect} from 'react-redux';
-import * as components from './components';
+import {PostCommentsComponent} from './components';
+import {addComment} from './actions';
 
-export const PostCommentsComponent = connect(
+export default connect(
     function mapStateToProps(state) {
         return {state: state};
     },
     function mapDispatchToProps(dispatch) {
-        return {};
+        return {
+            addComment: dispatch(addComment)
+        };
     }
-)(components.PostCommentsComponent);
+)(PostCommentsComponent);

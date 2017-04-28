@@ -4,9 +4,8 @@ import './component.css';
 export default class DisplayCommentComponent extends Component {
     constructor(props) {
         super(props);
-        this.id = this.props.id;
-        console.log(this.id)
-
+        this.postid = this.props.id;
+        console.log(this.props.state);
     }
 
     render() {
