@@ -6,7 +6,6 @@ export class Login extends Component {
     constructor(props) {
         super(props);
     }
-
     updateLoginForm = (event) => {
         if (event.target) {
             console.log('value ', event.target.value);
@@ -14,9 +13,10 @@ export class Login extends Component {
         }
     };
 
-    login = function (event) {
-        console.log('time to redirect');
+    login = (event) => {
         event.preventDefault();
+        console.log('time to redirect');
+        console.log(this.props.state.get('user').get('name'));
         browserHistory.push('/home');
     };
 
