@@ -1,11 +1,11 @@
 import {connect} from 'react-redux';
-import * as components from './components';
+import {FantasticComponent} from './component';
 
-export const FantasticComponent = connect(
+export default connect(
     function mapStateToProps(state) {
         return {state: state};
     },
     function mapDispatchToProps(dispatch) {
         return {};
     }
-)(components.FantasticComponent);
+)(FantasticComponent);

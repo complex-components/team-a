@@ -8,7 +8,7 @@ import reducer from './reducer';
 import './index.css'
 
 import Login from './login-component/container'
-import FantasticComponent from './fantastic-component/component'
+import FantasticComponent from './fantastic-component/container'
 
 const store = createStore(reducer);
 
