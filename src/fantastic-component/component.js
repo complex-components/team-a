@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import './component.css';
+class FantasticComponent extends Component {
 
-export default class FantasticComponent extends Component {
+
     render() {
         return (
             <div className="fantastic-component">
@@ -10,3 +11,5 @@ export default class FantasticComponent extends Component {
         );
     }
 }
+
+export default FantasticComponent;
