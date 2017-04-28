@@ -9,6 +9,7 @@ import './index.css'
 
 import Login from './login-component/container'
 import FantasticComponent from './fantastic-component/container'
+import ArticleComponent from './article-component/container'
 
 const store = createStore(reducer);
 
@@ -17,7 +18,7 @@ ReactDOM.render(
         <Router history={browserHistory}>
             <Route path="/" component={App}>
                 <IndexRoute component={Login}/>
-                <Route path="/home" component={FantasticComponent}/>
+                <Route path="/home" component={ArticleComponent}/>
             </Route>
         </Router>
     </Provider>,
