@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import './component.css';
 
 class FantasticComponent extends Component {
+
+
     render() {
         return (
             <div className="fantastic-component">
