@@ -1,0 +1,20 @@
+[
+  {
+    "id": 0,
+    "elementId": 123,
+    "value": 1,
+    "userName": "Ola"
+  },
+  {
+    "id": 1,
+    "elementId": 123,
+    "value": -1,
+    "userName": "Kari"
+  },
+  {
+    "id": 2,
+    "elementId": 123,
+    "value": 1,
+    "userName": "Petter"
+  }
+]
