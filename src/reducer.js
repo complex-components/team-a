@@ -9,8 +9,11 @@ export default function (state = init, action) {
     switch (action.type) {
         case 'ADD_FEEDBACK':
             return state;
-        case 'LOGIN_USER':
-            return state.set(user, action.payload);
+        case 'UPDATE_LOGINFORM':
+            console.log('action.payload ', action.payload);
+            var newState = state.setIn(user, action.payload);
+            console.log('name' , newState.get('name'));
+            return newState;
         default:
             return state;
     }

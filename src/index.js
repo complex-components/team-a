@@ -7,6 +7,7 @@ import App from './App'
 import reducer from './reducer';
 import './index.css'
 
+import Login from './login-component/container'
 import FantasticComponent from './fantastic-component/component'
 
 const store = createStore(reducer);
@@ -15,7 +16,7 @@ ReactDOM.render(
     <Provider store={store}>
         <Router history={browserHistory}>
             <Route path="/" component={App}>
-                <IndexRoute component={FantasticComponent}/>
+                <IndexRoute component={Login}/>
                 <Route path="/home" component={FantasticComponent}/>
             </Route>
         </Router>
