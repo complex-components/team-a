@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './component.css';
 
 import DisplayCommentsComponent from '../display-comments-component/component';
+import AddArticleComponent from '../addarticle-component/container'
 
 export class ArticleComponent extends Component {
     constructor(props){
@@ -12,7 +13,8 @@ export class ArticleComponent extends Component {
 
     render() {
         return (
-            <div className="article-component">
+            <div>
+                <AddArticleComponent />
                 <ul>
                 {this.postList.map(element => (
                     <li>{element.message}<br />
