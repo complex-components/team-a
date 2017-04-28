@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import FantasticComponent from './fantastic-component'
+import FantasticComponent from './fantastic-component/component'
 import logo from './logo.svg'
 import './App.css'
 
